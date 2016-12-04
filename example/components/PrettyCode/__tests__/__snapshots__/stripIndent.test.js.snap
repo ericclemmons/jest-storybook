@@ -1,0 +1,7 @@
+exports[`stripIndent should remove indentation from blocks 1`] = `
+"<body>
+  <section>
+    <nav />
+  </section>
+</body>"
+`;

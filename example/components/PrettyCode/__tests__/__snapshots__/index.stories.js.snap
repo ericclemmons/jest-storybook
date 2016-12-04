@@ -1,0 +1,89 @@
+exports[`PrettyCode defaults to JavaScript 1`] = `
+<div>
+  <code>
+    mock-react-codemirror
+  </code>
+  <pre>
+    {
+      \"options\": {
+        \"mode\": \"jsx\",
+        \"readOnly\": true,
+        \"theme\": \"monokai\"
+      },
+      \"value\": \"const language = \\\"JavaScript\\\";\\n\\nexport default \\\"Howdy!\\\";\"
+    }
+  </pre>
+</div>
+`;
+
+exports[`PrettyCode supports CSS 1`] = `
+<div>
+  <code>
+    mock-react-codemirror
+  </code>
+  <pre>
+    {
+      \"options\": {
+        \"mode\": \"css\",
+        \"readOnly\": true,
+        \"theme\": \"monokai\"
+      },
+      \"value\": \"article {\\n  color: #000;\\n  background: white;\\n}\\n\\nh1 {\\n  font-weight: bold;\\n}\"
+    }
+  </pre>
+</div>
+`;
+
+exports[`PrettyCode supports HTML 1`] = `
+<div>
+  <code>
+    mock-react-codemirror
+  </code>
+  <pre>
+    {
+      \"options\": {
+        \"mode\": \"htmlmixed\",
+        \"readOnly\": true,
+        \"theme\": \"monokai\"
+      },
+      \"value\": \"<article>\\n  <h1>HTML</h1>\\n  <p>Howdy!</p>\\n</article>\"
+    }
+  </pre>
+</div>
+`;
+
+exports[`PrettyCode supports JSX 1`] = `
+<div>
+  <code>
+    mock-react-codemirror
+  </code>
+  <pre>
+    {
+      \"options\": {
+        \"mode\": \"jsx\",
+        \"readOnly\": true,
+        \"theme\": \"monokai\"
+      },
+      \"value\": \"ReactDOM.render((\\n  <article>\\n    <h1>HTML</h1>\\n    <p>Howdy!</p>\\n  </article>\\n), window.app);\"
+    }
+  </pre>
+</div>
+`;
+
+exports[`PrettyCode supports Markdown (GFM) 1`] = `
+<div>
+  <code>
+    mock-react-codemirror
+  </code>
+  <pre>
+    {
+      \"options\": {
+        \"mode\": \"gfm\",
+        \"readOnly\": true,
+        \"theme\": \"monokai\"
+      },
+      \"value\": \"Markdown\\n========\\n\\n> _Howdy!_\\n\\n\`\`\`js\\nconst language = \\\"JavaScript\\\";\\n\\nexport default \\\"Howdy!\\\";\\n\`\`\`\"
+    }
+  </pre>
+</div>
+`;

@@ -1,0 +1,14 @@
+@import "~codemirror/lib/codemirror.css";
+@import "~codemirror/theme/monokai.css";
+
+:local pre {
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+
+.CodeMirror {
+  border-radius: 4px;
+  height: inherit;
+  margin-bottom: 10px;
+}
