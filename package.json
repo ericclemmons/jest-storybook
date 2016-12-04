@@ -1,7 +1,7 @@
 {
   "name": "jest-storybook",
   "version": "1.0.0",
-  "description": "Automatically generate jest snapshots from existing storybooks. (jest-equivalent of \"storyshots\")",
+  "description": "Generate Jest snapshots from existing storybooks (similar to storyshots).",
   "main": "index.js",
   "scripts": {
     "start": "start-storybook -p 3000",
