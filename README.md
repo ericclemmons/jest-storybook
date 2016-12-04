@@ -65,7 +65,7 @@ Luckily, **it's fairly trivial for [Jest][jest] to snapshot stories itself**.
   If you're using CSS Modules, consider [identity-obj-proxy][identity-obj-proxy],
   which will let you easily reference properties (e.g. `styles.foo`).
 
-  _Note: Until facebook/jest#1774 & facebook/jest#462 are resolved,
+  _Note: Until [facebook/jest#1774](https://github.com/facebook/jest/issues/1774) & [facebook/jest#462](https://github.com/facebook/jest/issues/462) are resolved,
   **namespaced mock packages must be explicitly listed**._
 
 5. Create `__mocks__/.css.js`:
@@ -110,7 +110,7 @@ Luckily, **it's fairly trivial for [Jest][jest] to snapshot stories itself**.
   };
   ```
 
-  _Note: Once facebook/jest#2094 is released, you can customize snapshot names!_
+  _Note: Once [facebook/jest#2094](https://github.com/facebook/jest/pull/2094) is released, you can customize snapshot names!_
 
 7. Move `*.stories.js` Under `__tests__`.
 
