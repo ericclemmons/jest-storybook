@@ -1,7 +1,7 @@
 import React from "react";
 import { storiesOf, action } from "@kadira/storybook";
 
-import PrettyCode  from "./";
+import PrettyCode  from "../";
 
 storiesOf("PrettyCode", module)
   .add("defaults to JavaScript", () => (
