@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "start-storybook -p 3000",
-    "test": "jest"
+    "test": "jest --config .jestrc"
   },
   "repository": {
     "type": "git",
@@ -24,11 +24,12 @@
   "homepage": "https://github.com/ericclemmons/jest-storybook#readme",
   "devDependencies": {
     "@kadira/storybook": "^2.33.1",
-    "jest": "^17.0.3"
+    "babel-jest": "^17.0.2",
+    "jest": "^17.0.3",
+    "react-test-renderer": "^15.4.1"
   },
   "dependencies": {
     "babel-preset-env": "^0.0.9",
-    "babel-preset-jest": "^17.0.2",
     "babel-preset-react": "^6.16.0",
     "react": "^15.4.1",
     "react-codemirror": "^0.3.0",
