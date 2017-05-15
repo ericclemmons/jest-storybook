@@ -14,9 +14,9 @@ If a wortwhile abstraction arises, I'll publish it accordingly._
 React components.  They're _effectively tests_, so it makes sense to version
 them along with the rest of your test-suite.
 
-[Storyshots][storyshots] are [Kadira][kadira]'s answer to this, but don't use
+[Storyshots][storyshots] are [Storybook][storybook]'s answer to this, ~~but don't use
 [Jest][jest] under the hood, so you miss out on
-[Jest's mocking capabilities](https://github.com/storybooks/storyshots/issues/38).
+[Jest's mocking capabilities](https://github.com/storybooks/storyshots/issues/38).~~
 
 Luckily, **it's fairly trivial for [Jest][jest] to snapshot stories itself**.
 
@@ -139,10 +139,9 @@ Luckily, **it's fairly trivial for [Jest][jest] to snapshot stories itself**.
 3. `npm start` (<http://localhost/3000>) or run `npm test`.
 
 [jest]: https://facebook.github.io/jest/
-[kadira]: https://github.com/kadirahq/
 [identity-obj-proxy]: https://github.com/keyanzhang/identity-obj-proxy
-[storybook]: https://github.com/storybooks/react-storybook
-[storyshots]: https://github.com/storybooks/storyshots
+[storybook]: https://github.com/storybooks/storybook
+[storyshots]: https://github.com/storybooks/storybook
 
 
 ### License
